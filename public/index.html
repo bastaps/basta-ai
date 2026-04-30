@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basta AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="sidebar">
+    <div class="logo">⚡ BASTA AI</div>
+    <div class="tagline">Free AI Dev Workflow</div>
+    <div class="mode-buttons">
+      <button class="mode-btn" data-mode="architect">🏗️ Architect</button>
+      <button class="mode-btn" data-mode="coder">💻 Coder</button>
+      <button class="mode-btn active" data-mode="workflow">🔄 Workflow</button>
+    </div>
+  </div>
+
+  <div id="main">
+    <header id="header">
+      <h2 id="mode-title">🔄 Workflow Mode</h2>
+    </header>
+    <div id="chat-window"></div>
+    <div id="input-area">
+      <textarea id="user-input" placeholder="Type your message here..."></textarea>
+      <button id="send-btn">Send ⚡</button>
+    </div>
+    <div id="status-bar">Powered by Mistral AI · Built with Claude + Qwen · Running on Laragon</div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
