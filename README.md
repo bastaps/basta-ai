@@ -313,3 +313,5 @@ Open browser → `http://localhost:3000`
 - [ ] CSS must import Google Fonts (Orbitron + Share Tech Mono)
 - [ ] JS must work without any npm frontend packages (vanilla only)
 - [ ] App must run successfully with just `npm install && node server.js`
+#   S S H   C o n n e c t i o n   V e r i f i e d  
+ 
